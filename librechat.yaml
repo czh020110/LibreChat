@@ -1,0 +1,87 @@
+version: 1.2.8
+cache: true
+endpoints:
+  custom:
+    - name: "NewChen"
+      apiKey: "${OPENAI_API_KEY}"
+      baseURL: "https://api.czh020110.edu.kg/v1"
+      models:
+        default: [
+          "gemini-2.5-flash",
+          "gemini-2.5-flash-all",
+          "gemini-2.5-flash-nothinking",
+          "gemini-2.5-flash-thinking",
+          "gemini-2.5-flash-thinking-max",
+          "gemini-2.5-flash-deepsearch",
+          "gemini-2.5-flash-lite",
+          "gemini-2.5-flash-lite-nothinking",
+          "gemini-2.5-flash-lite-think",
+          "gemini-2.5-flash-lite-thinking",
+          "gemini-2.5-pro",
+          "gemini-2.5-pro-all",
+          "gemini-2.5-pro-deepsearch",
+          "gemini-2.5-pro-thinking",
+          "gemini-2.5-pro-thinking-max",
+          "gpt-4.1",
+          "gpt-4.1-2025-04-14",
+          "gpt-4.1-mini",
+          "gpt-4.1-mini-2025-04-14",
+          "gpt-4.1-nano",
+          "gpt-4.1-nano-2025-04-14",
+          "gpt-4o",
+          "gpt-4o-2024-11-20",
+          "gpt-4o-all",
+          "gpt-4o-audio-preview",
+          "gpt-4o-image-vip",
+          "gpt-4o-mini",
+          "gpt-4o-mini-2024-07-18",
+          "gpt-4o-mini-audio-preview",
+          "gpt-4o-search-preview-2025-03-11",
+          "o3",
+          "o3-high",
+          "o3-high-all",
+          "o3-2025-04-16",
+          "o3-high-2025-04-16",
+          "o3-all",
+          "o3-mini",
+          "o3-mini-high",
+          "o3-mini-2025-01-31",
+          "o3-mini-high-2025-01-31",
+          "o3-mini-all",
+          "o3-mini-high-all",
+          "o3-pro-all",
+          "o4-mini",
+          "o4-mini-high",
+          "o4-mini-2025-04-16",
+          "o4-mini-high-2025-04-16",
+          "o4-mini-high-all",
+          "claude-sonnet-4-20250514",
+          "claude-sonnet-4-20250514-thinking",
+          "claude-opus-4-20250514",
+          "claude-opus-4-20250514-thinking",
+          "deepseek-r1",
+          "deepseek-v3",
+          "grok-3",
+          "grok-3-deepsearch",
+          "grok-3-mini",
+          "grok-3-reasoner",
+          "grok-3-reasoning",
+          "grok-4",
+          "tts-1",
+          "tts-1-hd",
+          "whisper-1",
+          "dall-e-3",
+          "gemini-2.0-flash-exp-image-generation",
+          "gemini-2.0-flash-preview-image-generation",
+          "stable-diffusion-3.5-large-turbo",
+          "stable-diffusion-3-medium",
+          "sora_image",
+          "grok-3-image"
+        ]
+        fetch: true
+      titleConvo: true
+      titleModel: "gemini-2.5-flash-lite-nothinking"
+      summarize: false
+      summaryModel: "gemini-2.5-flash-lite-nothinking"
+      forcePrompt: false
+      modelDisplayLabel: "NewChen"

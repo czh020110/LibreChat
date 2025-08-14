@@ -4,7 +4,7 @@ endpoints:
   custom:
     - name: "NewChen"
       apiKey: "${OPENAI_API_KEY}"
-      baseURL: "https://api.czh020110.edu.kg/v1"
+      baseURL: "https://new.czh020110.edu.kg/v1"
       models:
         default: [
           "gemini-2.5-flash",
@@ -85,3 +85,4 @@ endpoints:
       summaryModel: "gemini-2.5-flash-lite-nothinking"
       forcePrompt: false
       modelDisplayLabel: "NewChen"
+
